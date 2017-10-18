@@ -1,0 +1,203 @@
+/*------------------ css reset -------------------------*/
+
+* {
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.5em;
+    background-color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    float: left;
+}
+
+
+/*-------- logo --------------------------------*/
+
+#logo {
+    width: 5em;
+    padding: 3.5em 1em 1em 7em;
+    margin: auto;
+    float: left;
+    max-width: 4em;
+}
+
+
+/*------- nav ---------------------------------*/
+
+nav {
+    padding: 7em 10em 3em 3em;
+    margin: auto;
+    max-width: 100%;
+    float: right;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    margin: .25em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+/*------------------- typography ------------------------*/
+
+.about {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: #ffff;
+    font-size: 3em;
+    padding-bottom: 2em;
+    padding-bottom: 2em;
+    float: left; 
+    
+}
+
+section.about h2 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: .75em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+.work {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: white;
+    font-size: 1.75em;
+    padding-bottom: .5em;
+    float: left;
+}
+
+section.work h1 {
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+section.work h2 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: .75em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    color: gray;
+    padding-top: .5em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/*----- Footer -----*/
+
+
+/*------ social media links ----*/
+
+.contact {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: lightgrey;
+    font-size: 1.75em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+section.contact h1 {
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+section.contact li {
+    display: inline;
+}
+
+section.contact ul {
+  display: flex;
+  justify-content: center;
+    padding-top: 20px;
+    padding-right: 2.5em;
+}
+section.contact img {
+      max-height: 5em;
+        max-width: 5em;
+        padding-top: 1em;
+      
+}
+
+/*--- paragraphs ---*/
+
+p {  line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: .75em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: black;
+    
+}
+
+.visualmarque {
+    padding-bottom: .5em;
+}
