@@ -144,6 +144,7 @@ img {
 .gallery > div > img {
     width: 250px;
     transition: .1s;
+        flex-flow: row wrap;
 }
 
 .gallery > div:hover {
@@ -165,6 +166,7 @@ img {
     transform: scale(1.5, 1.5);
     transition: .3s
 }
+    
     
 
 .cf:before,
