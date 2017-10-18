@@ -127,6 +127,45 @@ img {
 }
 
 
+/*---css import---*/
+
+@import "compass/css3";
+.gallery {
+    margin: 3em;
+    padding: 5px;
+}
+
+.gallery > div {
+    position: relative;
+    float: left;
+    padding: 3px;
+}
+
+.gallery > div > img {
+    width: 250px;
+    transition: .1s;
+}
+
+.gallery > div:hover {
+    z-index: 1;
+}
+
+.gallery > div:hover > img {
+    transform: scale(1.5, 1.5);
+    transition: .3s
+}
+
+.gallery > div > a > img {
+     width: 250px;
+    transition: .1s;
+     width: 250px;
+
+}
+.gallery > div:hover > a > img {
+    transform: scale(1.5, 1.5);
+    transition: .3s
+}
+    
 
 .cf:before,
 .cf:after {
