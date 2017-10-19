@@ -15,16 +15,15 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
     float: left;
+    overflow-x: hidden;
 }
 
 
 /*-------- logo --------------------------------*/
 
-#logo {
+#logo img {
     width: 5em;
-    padding: 3.5em 1em 1em 7em;
     margin: auto;
-    float: left;
     max-width: 4em;
 }
 
@@ -32,18 +31,23 @@ body {
 /*------- nav ---------------------------------*/
 
 nav {
-    padding: 7em 10em 3em 3em;
+    padding-top: 3em;
+    padding-right: ;
+    padding-left:  ;
+    padding-bottom: ;    
     margin: auto;
     max-width: 100%;
-    float: right;
+    
 }
-
+nav ul li img {
+    
+}
 nav ul {
     text-align: center;
     text-transform: uppercase;
     font-size: 1em;
-    letter-spacing: 1.5px;
-    margin: .25em;
+    letter-spacing: .5px;
+    margin: auto;
 }
 
 nav ul li {
@@ -57,35 +61,54 @@ nav a {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.left-nav {
+          
+}
+
 a:hover {
     color: lightgray;
 }
 
-/*------------------- typography ------------------------*/
+
+/*------------------- ------------------------*/
+.cover {
+       width: 100%;
+        height: 50vh;
+        top: 10vh;
+        display: inline-block;
+        background: url(../img/peek-vm.png) 0vh 60vh no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        
+}
 
 .about {
-    width: 100%;
     line-height: 1em;
     margin: auto;
     background-color: #ffff;
-    font-size: 3em;
-    padding-bottom: 2em;
-    padding-bottom: 2em;
-    float: left; 
+    font-size: 4em;
+    padding-top: 2em;
     
 }
 
 section.about h2 {
     line-height: 1.65em;
-    letter-spacing: .01em;
     max-width: 100%;
     text-align: center;
-    margin: auto;
+   left: 50%;
     font-size: .75em;
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
     color: black;
 }
+
+section.about img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+}
+
 
 .work {
     width: 100%;
@@ -97,35 +120,13 @@ section.about h2 {
     float: left;
 }
 
-section.work h1 {
-    line-height: 1em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    padding-top: 1em;
-    font-size: 1.5em;
-    font-family: 'Ubuntu', sans-serif;
-    color: black;
-}
-section.work h2 {
-    line-height: 1.65em;
-    letter-spacing: .01em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    font-size: .75em;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
-    color: gray;
-    padding-top: .5em;
-}
-
+/*-----
 img {
     max-width: 100%;
     display: block;
     margin: auto;
 }
-
+-*/
 
 /*---css import---*/
 
@@ -134,12 +135,13 @@ img {
     margin: 3em;
     padding: 5px;
 }
-
+/*---
 .gallery > div {
     position: relative;
     float: left;
     padding: 3px;
 }
+
 
 .gallery > div > img {
     width: 250px;
@@ -157,10 +159,10 @@ img {
 }
 
 .gallery > div > a > img {
-     width: 250px;
+     width: 400px;
     transition: .1s;
-     width: 250px;
-
+     width: 400px;
+    display: inline-block;
 }
 .gallery > div:hover > a > img {
     transform: scale(1.5, 1.5);
@@ -179,9 +181,22 @@ img {
 .cf:after {
     clear: both;
 }
+---*/
 
+/*----------- portfolio things -----------------*/
 
-/*----- Footer -----*/
+.port > img {
+    
+    display: inline-block; 
+    width: 48%;
+    margin: auto; 
+}
+
+.port > div
+{
+    margin: auto;
+    text-align: center;
+}/*----- Footer -----*/
 
 
 /*------ social media links ----*/
