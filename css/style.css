@@ -59,21 +59,26 @@ nav ul li {
 nav a {
     color: black;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 .left-nav {
     float: left;
+          padding-right: 1em;
+    font-size: 1.35em;
           
 }
 
 .right-nav {
     float: right;
+    padding-right: 1em;
+    font-size: 1.35em;
     
 }
 
 .right-nav: hover {
     color: lightgrey;
+  
         
 }
 
@@ -109,16 +114,9 @@ section.about h2 {
     text-align: center;
    left: 50%;
     font-size: .75em;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-weight: normal;
     color: black;
-}
-
-section.about img {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    
 }
 
 
