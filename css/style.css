@@ -37,6 +37,7 @@ nav {
     padding-bottom: ;    
     margin: auto;
     max-width: 100%;
+    background color: white;
     
 }
 nav ul li img {
@@ -62,7 +63,18 @@ nav a {
 }
 
 .left-nav {
+    float: left;
           
+}
+
+.right-nav {
+    float: right;
+    
+}
+
+.right-nav: hover {
+    color: lightgrey;
+        
 }
 
 a:hover {
