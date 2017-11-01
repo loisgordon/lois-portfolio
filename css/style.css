@@ -45,7 +45,6 @@ nav ul li img {
 }
 nav ul {
     text-align: center;
-    text-transform: uppercase;
     font-size: 1em;
     letter-spacing: .5px;
     margin: auto;
@@ -59,7 +58,7 @@ nav ul li {
 nav a {
     color: black;
     text-decoration: none;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'roboto', sans-serif;
 }
 
 .left-nav {
@@ -89,7 +88,7 @@ a:hover {
 
 /*------------------- ------------------------*/
 .cover {
-       width: 100%;
+        width: 100%;
         height: 50vh;
         top: 10vh;
         display: inline-block;
@@ -97,6 +96,16 @@ a:hover {
         background-attachment: fixed;
         background-size: contain;
         
+}
+
+.me-cover {
+        width: 100%;
+        height: 50vh;
+        top: 10vh;
+        display: inline-block;
+        background: url(../img) 0vh 60vh no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
 }
 
 .about {
@@ -114,7 +123,7 @@ section.about h2 {
     text-align: center;
    left: 50%;
     font-size: .75em;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'roboto', sans-serif;
     font-weight: normal;
     color: black;
 }
@@ -141,9 +150,9 @@ img {
 /*---css import---*/
 
 @import "compass/css3";
-.gallery {
-    margin: 3em;
-    padding: 5px;
+                        .gallery {
+                        margin: 3em;
+                        padding: 5px;
 }
 /*---
 .gallery > div {
@@ -217,8 +226,8 @@ img {
     margin: auto;
     background-color: lightgrey;
     font-size: 1.75em;
-    padding-bottom: 4em;
-    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     float: left;
     font-family: 'Oswald', sans-serif;
 }
