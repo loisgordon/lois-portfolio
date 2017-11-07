@@ -85,30 +85,52 @@ nav a {
 a:hover {
     color: lightgray;
 }
-
-
-/*------------------- ------------------------*/
-.cover {
-        width: 100%;
-        height: 55vh;
-        top: 10vh;
-        display: inline-block;
-        background: url(../img/peek-vm.png) 0vh 60vh no-repeat;
-        background-attachment: fixed;
-        background-size: contain;
-        
+h1 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+h2 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-left: -38%;
+    font-size: 3em;
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: black;
+    padding-top: .5em;
 }
 
-.me-cover {
-        width: 100%;
-        height: 50vh;
-        top: 10vh;
-        display: inline-block;
-        background: url(../img) 0vh 60vh no-repeat;
-        background-attachment: fixed;
-        background-size: contain;
+
+.citybike_showcase img { 
+                width: 45%;
+                margin: 4em;
+    
+
+    
 }
 
+.citybike_explain {
+     line-height: 1.6em;
+    margin-right: 15%;
+    font-size: 1.25em;
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: black;
+    float: right;
+    display: inline;
+    max-width: 25%;
+    margin-top: 4em;
+
+              
+}
 .about {
     line-height: 1em;
     margin: auto;
@@ -140,23 +162,19 @@ section.about h2 {
     float: left;
 }
 
-
-
-/*----------- portfolio things -----------------*/
-
-.port > img {
-    
-    display: inline-block; 
-    width: 48%;
-    margin: auto; 
-}
-
-.port > div
-{
-    margin: auto;
+.work h2
+{   line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
     text-align: center;
-}/*----- Footer -----*/
-
+    margin: auto;
+    margin-left: -38%;
+    font-size: 3em;
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: black;
+    padding-top: .5em;
+}
 
 /*------ social media links ----*/
 
@@ -199,22 +217,59 @@ section.contact img {
       
 }
 
-/*--- paragraphs ---*/
-
-p {  line-height: 1.65em;
-    letter-spacing: .01em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    font-size: .75em;
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
-    color: black;
-    
-}
 
 .visualmarque {
     padding-bottom: .5em;
+}
+/*---css import---*/
+
+@import "compass/css3";
+.gallery {
+    margin: 3em;
+    padding: 5px;
+}
+
+.gallery > div {
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+.gallery > div > img {
+    width: 250px;
+    transition: .1s;
+}
+
+.gallery > div:hover {
+    z-index: 1;
+}
+
+.gallery > div:hover > img {
+    transform: scale(1.5, 1.5);
+    transition: .3s
+}
+
+.gallery > div > a > img {
+     width: 250px;
+    transition: .1s;
+     width: 250px;
+
+}
+.gallery > div:hover > a > img {
+    transform: scale(1.5, 1.5);
+    transition: .3s
+}
+    
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
 }
 
 
