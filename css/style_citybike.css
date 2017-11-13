@@ -151,6 +151,18 @@ section.about h2 {
     color: black;
 }
 
+.colourpalette img {
+    align-content: center;
+    margin-left: 15em;
+    display: inline;
+    float: right;
+    max-width: 35%;
+    margin-right: 2em;
+    
+    
+}
+
+
 
 .work {
     width: 100%;
