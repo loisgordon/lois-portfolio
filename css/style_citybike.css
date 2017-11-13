@@ -153,16 +153,16 @@ section.about h2 {
 
 .colourpalette img {
     align-content: center;
-    margin-left: 15em;
+    margin-left: 25em;
     display: inline;
-    float: right;
     max-width: 35%;
-    margin-right: 2em;
     
     
 }
 
-
+.colourpalette p {
+                text-align: center;
+}
 
 .work {
     width: 100%;

@@ -6,7 +6,6 @@
 }
 
 body {
-    width: 100%;
     max-width: 100%;
     margin: auto;
     line-height: 1.5em;
@@ -14,7 +13,6 @@ body {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     color: black;
-    float: left;
     overflow-x: hidden;
 }
 
@@ -26,6 +24,7 @@ body {
     margin: auto;
     max-width: 4em;
     margin-top: -2em;
+    align-content: center;
 }
 
 
@@ -42,6 +41,7 @@ nav {
     
 }
 nav ul li img {
+    padding-left: 
     
 }
 nav ul {
