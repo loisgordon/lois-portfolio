@@ -164,6 +164,14 @@ section.about h2 {
                 text-align: center;
 }
 
+.iphone-mockup img {
+            
+      align-content: center;
+    margin-left: 25em;
+    display: inline;
+    max-width: 35%;
+}
+
 .work {
     width: 100%;
     line-height: 1em;
