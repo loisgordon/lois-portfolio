@@ -281,30 +281,8 @@ h4 {
     }
 }
 
-
-h4 {
-  /* position the text */
-  position: absolute;
-  left: 0px;
-  display: none;
-  width: 300px;
-  text-align: center;
-  margin: 0;
-  height: 20px;
-  top: 140px;
-  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-.gallery: img {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-img:hover + h4 {
-  display: block;
-}
-
-
-
-
-
-
