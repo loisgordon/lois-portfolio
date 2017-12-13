@@ -184,6 +184,7 @@ p {  line-height: 1.65em;
         grid-template-rows: repeat(2, 250px);
         grid-template-columns: repeat(4, 1fr);
         padding: 5px;
+    margin-left: 5px;
     
 }
 
