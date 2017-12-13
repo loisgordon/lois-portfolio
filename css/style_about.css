@@ -12,7 +12,7 @@ body {
     line-height: 1.5em;
     background-color: white;
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
     color: black;
     float: left;
     overflow-x: hidden;
@@ -32,10 +32,7 @@ body {
 /*------- nav ---------------------------------*/
 
 nav {
-    padding-top: 3em;
-    padding-right: ;
-    padding-left:  ;
-    padding-bottom: ;    
+    padding-top: 3em;    
     margin: auto;
     max-width: 100%;
     background color: white;
@@ -57,7 +54,8 @@ nav ul li {
 nav a {
     color: black;
     text-decoration: none;
-    font-family: 'roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
+    
 }
 
 .left-nav {
@@ -107,7 +105,7 @@ a:hover {
     line-height: 1.6em;
     margin-right: 15%;
     font-size: 1.25em;
-    font-family: 'roboto', sans-serif;
+    font-family:'raleway', sans-serif;
     font-weight: normal;
     color: black;
     float: right;
@@ -126,12 +124,14 @@ a:hover {
 .cv_button a
 {
     float: right;
-    margin-right: 30.7%;
+    margin-right: 30%;
     margin-top: -7%;
     text-decoration: none;
     color: black;
+
  
 }
+
 
 .cv_button a:hover { color: lightgray;
                     
