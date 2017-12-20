@@ -31,12 +31,12 @@ body {
 /*------- nav ---------------------------------*/
 
 nav {
-    padding-top: 3em;    
+    padding-top: 3em;
     margin: auto;
     max-width: 100%;
     background color: white;
-    
 }
+
 nav ul {
     text-align: center;
     font-size: 1em;
@@ -59,25 +59,22 @@ nav a {
     float: left;
     padding-right: 1em;
     font-size: 1.35em;
-          
 }
 
 .right-nav {
     float: right;
     padding-right: 1em;
     font-size: 1.35em;
-    
 }
 
 .right-nav: hover {
     color: lightgrey;
-  
-        
 }
 
 a:hover {
     color: lightgray;
 }
+
 .about {
     width: 100%;
     line-height: 1em;
@@ -86,6 +83,7 @@ a:hover {
     padding-bottom: 5vh;
     float: left;
 }
+
 .about h1 {
     max-width: 100%;
     text-align: center;
@@ -98,9 +96,7 @@ a:hover {
     font-size: 2em;
 }
 
-
-
-.about h2{
+.about h2 {
     max-width: 100%;
     text-align: center;
     font-family: 'raleway', sans-serif;
@@ -111,7 +107,6 @@ a:hover {
     background-color: #ffff;
     font-size: 2em;
 }
-
 
 
 /*----- Footer -----*/
@@ -159,9 +154,11 @@ section.contact img {
 }
 -----*/
 
+
 /*------------------------------------ paragraphs --------------------------------------*/
 
-p {  line-height: 1.65em;
+p {
+    line-height: 1.65em;
     letter-spacing: .01em;
     max-width: 100%;
     text-align: center;
@@ -170,38 +167,32 @@ p {  line-height: 1.65em;
     font-family: 'raleway', sans-serif;
     font-weight: normal;
     color: black;
-    
 }
 
 .visualmarque {
     padding-bottom: .5em;
 }
 
+
 /*---gallery ---*/
 
-
 .gallery {
-        display: grid;
-        grid-template-rows: repeat(2, 250px);
-        grid-template-columns: repeat(4, 1fr);
-        padding: 5px;
-    margin-left: 5px;
-    
+    display: grid;
+    grid-template-rows: repeat(4, 450px);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    margin-left: 50px;
 }
 
 .grid-item img {
     height: auto;
-    width: 300px;
-    
+    width: 500px;
+
 }
+
 .gallery > div:hover > a > img {
-    transform: scale(1.25, 1.25);
+    transform: scale(1.05, 1.05);
     transition: .3s
-
 }
 
-#sprout2 {
-        
-}
-
-
+#sprout2 {}
