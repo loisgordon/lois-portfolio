@@ -12,7 +12,7 @@ body {
     line-height: 1.5em;
     background-color: white;
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
     color: black;
     float: left;
     overflow-x: hidden;
@@ -33,17 +33,11 @@ body {
 
 nav {
     padding-top: 3em;
-    padding-right: ;
-    padding-left:  ;
-    padding-bottom: ;    
     margin: auto;
     max-width: 100%;
     background color: white;
-    
 }
-nav ul li img {
-    
-}
+
 nav ul {
     text-align: center;
     font-size: 1em;
@@ -59,27 +53,23 @@ nav ul li {
 nav a {
     color: black;
     text-decoration: none;
-    font-family: 'roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 
 .left-nav {
     float: left;
-          padding-right: 1em;
+    padding-right: 1em;
     font-size: 1.35em;
-          
 }
 
 .right-nav {
     float: right;
     padding-right: 1em;
     font-size: 1.35em;
-    
 }
 
 .right-nav: hover {
     color: lightgrey;
-  
-        
 }
 
 a:hover {
@@ -90,7 +80,7 @@ h1 {
     letter-spacing: .01em;
     max-width: 100%;
     margin: auto;
-    font-family: 'roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-weight: normal;
     color: black;
 }
@@ -102,144 +92,10 @@ h2 {
     margin: auto;
     margin-left: -38%;
     font-size: 3em;
-    font-family: 'roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-weight: normal;
     color: black;
     padding-top: .5em;
-}
-
-
-.citybike_showcase img { 
-                width: 45%;
-                margin: 4em;
-    
-
-    
-}
-
-.citybike_explain {
-     line-height: 1.6em;
-    margin-right: 15%;
-    font-size: 1.25em;
-    font-family: 'roboto', sans-serif;
-    font-weight: normal;
-    color: black;
-    float: right;
-    display: inline;
-    max-width: 25%;
-    margin-top: 4em;
-
-              
-}
-.about {
-    line-height: 1em;
-    margin: auto;
-    background-color: #ffff;
-    font-size: 4em;
-    padding-top: 2em;
-    
-}
-
-section.about h2 {
-    line-height: 1.65em;
-    max-width: 100%;
-    text-align: center;
-   left: 50%;
-    font-size: .75em;
-    font-family: 'roboto', sans-serif;
-    font-weight: normal;
-    color: black;
-}
-
-.colourpalette img {
-    align-content: center;
-    margin-left: 25em;
-    display: inline;
-    max-width: 35%;
-    
-    
-}
-
-.colourpalette p {
-                text-align: center;
-}
-
-.iphone-mockup img {
-            
-      align-content: center;
-    margin-left: 25em;
-    display: inline;
-    max-width: 35%;
-}
-
-.work {
-    width: 100%;
-    line-height: 1em;
-    margin: auto;
-    background-color: white;
-    font-size: 1.75em;
-    padding-bottom: .5em;
-    float: left;
-}
-
-.work h2
-{   line-height: 1.65em;
-    letter-spacing: .01em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    margin-left: -38%;
-    font-size: 3em;
-    font-family: 'roboto', sans-serif;
-    font-weight: normal;
-    color: black;
-    padding-top: .5em;
-}
-
-/*------ social media links ----*/
-
-.contact {
-    width: 100%;
-    line-height: 1em;
-    margin: auto;
-    background-color: lightgrey;
-    font-size: 1.75em;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    float: left;
-    font-family: 'Oswald', sans-serif;
-}
-
-section.contact h1 {
-    line-height: 1em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    font-size: 1em;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-}
-
-section.contact li {
-    display: inline;
-}
-
-section.contact ul {
-  display: flex;
-  justify-content: center;
-    padding-top: 20px;
-    padding-right: 2.5em;
-}
-section.contact img {
-      max-height: 5em;
-        max-width: 5em;
-        padding-top: 1em;
-      
-}
-
-
-.visualmarque {
-    padding-bottom: .5em;
 }
 /*---css import---*/
 
@@ -291,6 +147,156 @@ section.contact img {
 .cf:after {
     clear: both;
 }
+
+.citybike_showcase img { 
+                width: 45%;
+                margin: 4em;
+    
+
+    
+}
+
+.citybike_explain {
+    line-height: 1.6em;
+    margin-right: 15%;
+    font-size: 1.25em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+    float: right;
+    display: inline;
+    max-width: 25%;
+    margin-top: 4em;
+
+              
+}
+
+.about-screens {
+    max-width: 50%;
+    margin-left: 4em;
+    font-size: .6em;
+    
+}
+
+
+.about {
+    line-height: 1em;
+    margin: auto;
+    background-color: #ffff;
+    font-size: 4em;
+    padding-top: 2em;
+    
+}
+
+section.about h2 {
+    line-height: 1.65em;
+    max-width: 100%;
+    text-align: center;
+   left: 50%;
+    font-size: .75em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+.colourpalette img {
+    align-content: center;
+    margin-left: 25em;
+    display: inline;
+    max-width: 35%;
+    
+    
+}
+
+.colourpalette p {
+                text-align: center;
+}
+
+.iphone-mockup img {
+            
+    align-content: center;
+    margin-left: 20em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: inline;
+    max-width: 50%;
+}
+
+.work {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: white;
+    font-size: 1.75em;
+    padding-bottom: .5em;
+    float: left;
+}
+
+.work h2
+{   line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-left: -38%;
+    font-size: 3em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+    padding-top: .5em;
+}
+
+.iphone-mockup-text {
+    
+    margin-left: 20em;
+    text-align: left;
+    
+}
+
+/*------ social media links ----*/
+
+.contact {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: lightgrey;
+    font-size: 1.75em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    float: left;
+    font-family: 'raleway', sans-serif;
+    position: absolute;
+}
+
+section.contact h1 {
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'raleway', sans-serif;
+    color: white;
+}
+
+section.contact li {
+    display: inline;
+}
+
+section.contact ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+section.contact img {
+      max-height: 5em;
+      max-width: 5em;
+      padding-top: 1em;   
+}
+.visualmarque {
+    padding-bottom: .5em;
+}
+
 
 
 
