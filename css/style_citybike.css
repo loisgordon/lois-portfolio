@@ -200,8 +200,8 @@ section.about h2 {
 }
 
 .colourpalette img {
-    align-content: center;
-    margin-left: 25em;
+    align-content: left;
+    margin-left: 4em;
     display: inline;
     max-width: 35%;
     
@@ -209,7 +209,9 @@ section.about h2 {
 }
 
 .colourpalette p {
-                text-align: center;
+            text-align: left;
+            padding-top: 3em;
+            margin-left: 4em;
 }
 
 .iphone-mockup img {
@@ -248,10 +250,18 @@ section.about h2 {
 
 .iphone-mockup-text {
     
-    margin-left: 20em;
-    text-align: left;
+    margin-left: auto;
+    text-align: center;
     
 }
+.iphone-mockup-text2 {
+    
+    margin-left: 24em;
+    text-align: left;
+    
+    
+}
+
 
 /*------ social media links ----*/
 
