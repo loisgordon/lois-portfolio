@@ -205,16 +205,18 @@ section.about h2 {
 
 .colourpalette img {
     align-content: center;
-    margin-left: 32%;
-    display: inline;
-    max-width: 35%;
+    margin-left: 35%;
+    justify-content: center;
+    max-width: 30%;
     
     
 }
 
+
 .colourpalette p {
             text-align: center;
             padding-top: 1em;
+            padding-bottom: 1em;
             
            
 }
@@ -266,8 +268,6 @@ section.about h2 {
     
     
 }
-
-
 /*------ social media links ----*/
 
 .contact {
