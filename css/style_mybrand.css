@@ -217,7 +217,10 @@ section.about h2 {
     margin-left: 27em;
     max-width: 60%;
 }
-/*------ social media links ----*/
+/*----- Footer -----*/
+
+
+/*---------------------------------------------- social media links -----------------------------------------*/
 
 .contact {
     width: 100%;
@@ -227,6 +230,7 @@ section.about h2 {
     font-size: 1.75em;
     padding-bottom: 1em;
     padding-top: 1em;
+    float: left;
     font-family: 'raleway', sans-serif;
 }
 
@@ -236,7 +240,7 @@ section.contact h1 {
     text-align: center;
     margin: auto;
     font-size: 1em;
-    font-family: 'raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: white;
 }
 
@@ -245,15 +249,19 @@ section.contact li {
 }
 
 section.contact ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
     padding-top: 20px;
-    
+    padding-right: 2.5em;
 }
 section.contact img {
       max-height: 5em;
-      padding-top: 1em;   
+        max-width: 5em;
+        padding-top: 1em;
+      
 }
+
+
 .visualmarque {
     padding-bottom: .5em;
 }
