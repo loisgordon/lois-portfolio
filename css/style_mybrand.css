@@ -1,0 +1,284 @@
+/*------------------ css reset -------------------------*/
+
+* {
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.5em;
+    background-color: white;
+    font-size: 1em;
+    font-family: 'raleway', sans-serif;
+    color: black;
+    float: left;
+    overflow-x: hidden;
+}
+
+
+/*-------- logo --------------------------------*/
+
+#logo img {
+    width: 5em;
+    margin: auto;
+    max-width: 4em;
+    margin-top: -2em;
+}
+
+#logo img:hover {
+    transform: scale(1.3, 1.3);
+    transition: .3s
+}
+
+/*------- nav ---------------------------------*/
+
+nav {
+    padding-top: 3em;
+    margin: auto;
+    max-width: 100%;
+    background color: white;
+}
+
+nav ul {
+    text-align: center;
+    font-size: .95em;
+    letter-spacing: .5px;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'raleway', sans-serif;
+}
+
+.left-nav {
+    float: left;
+    padding-right: 1em;
+    font-size: 1.35em;
+}
+
+.right-nav {
+    float: right;
+    padding-right: 1em;
+    font-size: 1.35em;
+}
+
+.right-nav: hover {
+    color: lightgrey;
+}
+
+a:hover {
+    color: lightgray;
+}
+h1 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+h2 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: left;
+    margin: auto;
+    margin-left: 1.25em;
+    font-size: 3em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+    padding-top: .5em;
+}
+
+
+.citybike_showcase img { 
+                width: 45%;
+                margin: 4em;
+    
+
+    
+}
+
+.citybike_explain {
+    line-height: 1.6em;
+    margin-right: 15%;
+    font-size: 1.25em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+    float: right;
+    display: inline;
+    max-width: 26%;
+    margin-top: 4em;
+
+              
+}
+
+.about-screens {
+    max-width: 47%;
+    margin-left: 4em;
+    font-size: .6em;
+    
+}
+
+
+.about {
+    line-height: 1em;
+    margin: auto;
+    background-color: #ffff;
+    font-size: 4em;
+    padding-top: 2em;
+    
+}
+
+section.about h2 {
+    line-height: 1.65em;
+    max-width: 100%;
+    text-align: center;
+   left: 50%;
+    font-size: .75em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+
+.colourpalette p {
+            text-align: center;
+            padding-top: 1em;
+            
+           
+}
+
+.iphone-mockup img {
+            
+    align-content: center;
+    margin-left: 30em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: inline;
+    max-width: 50%;
+}
+.brandguidelines {
+     margin-left: 4.2em;
+    
+    
+}
+.brandguidelines a {
+    
+    text-decoration: none;
+    color: gray;
+}
+
+.brandguidelines a:hover {
+    transform: scale(1.3, 1.3);
+    transition: .3s
+    
+}
+
+.work {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: white;
+    font-size: 1.75em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+.iphone-mockup-text {
+    
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+.wordmark img {
+    justify-content: center;
+    margin: auto;
+    margin-left: 17em;
+    max-width: 60%;
+}
+.visualmarque img {
+    justify-content: center;
+    margin: auto;
+    margin-left: 27em;
+    max-width: 60%;
+}
+/*------ social media links ----*/
+
+.contact {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: lightgrey;
+    font-size: 1.75em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-family: 'raleway', sans-serif;
+}
+
+section.contact h1 {
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'raleway', sans-serif;
+    color: white;
+}
+
+section.contact li {
+    display: inline;
+}
+
+section.contact ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+    margin-left: -2em;
+    
+}
+section.contact img {
+      max-height: 5em;
+      padding-top: 1em;   
+}
+.visualmarque {
+    padding-bottom: .5em;
+}
+
+section.contact img:hover {
+        transform: scale(1.3, 1.3);
+    transition: .3s
+}
+
+
+.cv_button a
+{                                
+    margin: 3.25em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+ 
+}
+
+
+.cv_button a:hover { 
+    color: lightgray;
+                    
+}
+
