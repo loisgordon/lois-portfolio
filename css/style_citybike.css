@@ -214,7 +214,7 @@ section.about h2 {
 
 .colourpalette p {
             text-align: center;
-            padding-top: 3em;
+            padding-top: 1em;
             
            
 }
@@ -278,9 +278,7 @@ section.about h2 {
     font-size: 1.75em;
     padding-bottom: 1em;
     padding-top: 1em;
-    float: left;
     font-family: 'raleway', sans-serif;
-    position: absolute;
 }
 
 section.contact h1 {
@@ -301,6 +299,9 @@ section.contact ul {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-left: -3em;
     
 }
 section.contact img {
