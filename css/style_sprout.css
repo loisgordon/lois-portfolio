@@ -203,14 +203,6 @@ section.about h2 {
     color: black;
 }
 
-.colourpalette img {
-    align-content: center;
-    margin-left: 32%;
-    display: inline;
-    max-width: 35%;
-    
-    
-}
 
 .colourpalette p {
             text-align: center;
@@ -238,32 +230,10 @@ section.about h2 {
     padding-bottom: .5em;
     float: left;
 }
-
-.work h2
-{   line-height: 1.65em;
-    letter-spacing: .01em;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-    margin-left: -38%;
-    font-size: 3em;
-    font-family: 'raleway', sans-serif;
-    font-weight: normal;
-    color: black;
-    padding-top: .5em;
-}
-
 .iphone-mockup-text {
     
     margin-left: auto;
     text-align: center;
-    
-}
-.iphone-mockup-text2 {
-    
-    margin-left: 24em;
-    text-align: left;
-    
     
 }
 
