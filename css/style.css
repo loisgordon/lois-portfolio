@@ -13,7 +13,10 @@ body {
     font-size: 1em;
     font-family: 'raleway', sans-serif;
     color: black;
-    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    zoom: 100%;
+
 }
 
 
